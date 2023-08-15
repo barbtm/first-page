@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #f6cdcd;
+    
+}
+
+.p1{
+    background-image: url(../img/4067e6eb0ccc0c049ae0540013db51c8.jpg);
+    height: 300px;
+    background-size: cover;
+    background-position: right center;
+    padding-top: 1px;
+}
+
+.content-p1{
+    margin: 80px auto 0;
+    width: 80%;
+    text-align: center;
+    color: rgb(119, 14, 94);
+}
+
+.content-p1 h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 5px 2px 5px rgb(145, 48, 64);
+    color: rgb(222, 133, 180);
+    margin-bottom: 0;
+}
+
+.content-p1 p{
+    text-align: center;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid;
+    background-color: rgba(230, 121, 204, 0.7)
+}
+
+.p1 nav ul{
+    margin: 20px 50px 0 0;
+    text-align: right;
+}
+
+.p1 nav li{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid rgb(109, 3, 79);
+    margin-left: 16px;
+}
+
+.p1 nav a{
+    background-color: rgba(255, 138, 237, 0.5);
+    padding: 16x;
+    display: block;
+    color: rgb(59, 2, 42);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+
+.p1 nav a:hover{
+    background-color: rgba(194, 92, 170, 0.905)
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    max-width: 860px;
+}
+
+section{
+    padding-top: 32px;
+
+}
+
+article{
+    background-color: #f5add592;
+    padding: 16px;
+    margin-bottom: 32px;
+}
+
+article h2{
+    border-bottom: 2px solid rgb(244, 150, 165);
+    background-color: rgba(219, 138, 152, 0.404);
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.btn{
+    background-color: #c28fb056;
+    display: block;
+    padding: 12px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #b74c8c;
+    margin-left: auto;
+    width: fit-content;
+    text-align: center;
+}
+
+.foot1{
+    color: #704c4c;
+    background-color: #e7aeae;
+    text-align: center;
+    padding: 25px;
+    text-shadow: 1px 1px 1px #4c3b3b;
+    letter-spacing: 1px;
+}
